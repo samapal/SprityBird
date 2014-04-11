@@ -76,7 +76,7 @@
 		82B99B4118B1301F0099A4FE /* BirdNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirdNode.m; sourceTree = "<group>"; };
 		82B99B4418B132B40099A4FE /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
 		82B99B4518B132B40099A4FE /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = "<group>"; };
-		82C6A08F18A6F53400FEBE9B /* spritybird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spritybird.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C6A08F18A6F53400FEBE9B /* UkraRev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UkraRev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82C6A09218A6F53400FEBE9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		82C6A09418A6F53400FEBE9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		82C6A09618A6F53400FEBE9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -174,7 +174,7 @@
 		82C6A09018A6F53400FEBE9B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				82C6A08F18A6F53400FEBE9B /* spritybird.app */,
+				82C6A08F18A6F53400FEBE9B /* UkraRev.app */,
 				82C6A0B018A6F53400FEBE9B /* spritybirdTests.xctest */,
 			);
 			name = Products;
@@ -314,7 +314,7 @@
 			);
 			name = spritybird;
 			productName = spritybird;
-			productReference = 82C6A08F18A6F53400FEBE9B /* spritybird.app */;
+			productReference = 82C6A08F18A6F53400FEBE9B /* UkraRev.app */;
 			productType = "com.apple.product-type.application";
 		};
 		82C6A0AF18A6F53400FEBE9B /* spritybirdTests */ = {
@@ -550,7 +550,7 @@
 				GCC_PREFIX_HEADER = "spritybird/Supporting Files/spritybird-Prefix.pch";
 				INFOPLIST_FILE = "spritybird/Supporting Files/spritybird-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = spritybird;
+				PRODUCT_NAME = UkraRev;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -568,7 +568,7 @@
 				GCC_PREFIX_HEADER = "spritybird/Supporting Files/spritybird-Prefix.pch";
 				INFOPLIST_FILE = "spritybird/Supporting Files/spritybird-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = spritybird;
+				PRODUCT_NAME = UkraRev;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
