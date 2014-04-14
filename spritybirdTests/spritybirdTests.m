@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Alexis Creuzot. All rights reserved.
 //
 
-#import <XCTest/XCTest.h>
+/*#import <XCTest/XCTest.h>
 
 @interface spritybirdTests : XCTestCase
 

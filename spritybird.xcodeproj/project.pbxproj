@@ -38,10 +38,7 @@
 		82C6A0B218A6F53400FEBE9B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C6A0B118A6F53400FEBE9B /* XCTest.framework */; };
 		82C6A0B318A6F53400FEBE9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C6A09218A6F53400FEBE9B /* Foundation.framework */; };
 		82C6A0B418A6F53400FEBE9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C6A09618A6F53400FEBE9B /* UIKit.framework */; };
-		82C6A0BC18A6F53400FEBE9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82C6A0BA18A6F53400FEBE9B /* InfoPlist.strings */; };
-		82C6A0BE18A6F53400FEBE9B /* spritybirdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C6A0BD18A6F53400FEBE9B /* spritybirdTests.m */; };
 		82C6A0CB18A6FF7400FEBE9B /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C6A0CA18A6FF7400FEBE9B /* SpriteKit.framework */; };
-		82FEEB9418B550BF00AA6C66 /* Main-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82FEEB9318B550BF00AA6C66 /* Main-iPad.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,9 +89,6 @@
 		82C6A0AA18A6F53400FEBE9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		82C6A0B018A6F53400FEBE9B /* spritybirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spritybirdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82C6A0B118A6F53400FEBE9B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		82C6A0B918A6F53400FEBE9B /* spritybirdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "spritybirdTests-Info.plist"; sourceTree = "<group>"; };
-		82C6A0BB18A6F53400FEBE9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		82C6A0BD18A6F53400FEBE9B /* spritybirdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = spritybirdTests.m; sourceTree = "<group>"; };
 		82C6A0C718A6FF4200FEBE9B /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
 		82C6A0C818A6FF4200FEBE9B /* Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scene.m; sourceTree = "<group>"; };
 		82C6A0CA18A6FF7400FEBE9B /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
@@ -102,7 +96,6 @@
 		82C6A0DB18A7918800FEBE9B /* SKScrollingNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKScrollingNode.m; sourceTree = "<group>"; };
 		82C6A0E018A79B2400FEBE9B /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
 		82C6A0E118A79B2400FEBE9B /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
-		82FEEB9318B550BF00AA6C66 /* Main-iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main-iPad.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,7 +158,6 @@
 			isa = PBXGroup;
 			children = (
 				82C6A09818A6F53400FEBE9B /* spritybird */,
-				82C6A0B718A6F53400FEBE9B /* spritybird Tests */,
 				82C6A09118A6F53400FEBE9B /* Frameworks */,
 				82C6A09018A6F53400FEBE9B /* Products */,
 			);
@@ -211,25 +203,6 @@
 				82C6A0A018A6F53400FEBE9B /* spritybird-Prefix.pch */,
 			);
 			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		82C6A0B718A6F53400FEBE9B /* spritybird Tests */ = {
-			isa = PBXGroup;
-			children = (
-				82C6A0BD18A6F53400FEBE9B /* spritybirdTests.m */,
-				82C6A0B818A6F53400FEBE9B /* Supporting Files */,
-			);
-			name = "spritybird Tests";
-			path = spritybirdTests;
-			sourceTree = "<group>";
-		};
-		82C6A0B818A6F53400FEBE9B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				82C6A0B918A6F53400FEBE9B /* spritybirdTests-Info.plist */,
-				82C6A0BA18A6F53400FEBE9B /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		82C6A0D218A790BA00FEBE9B /* Classes */ = {
@@ -289,7 +262,6 @@
 		82C6A0D918A7913200FEBE9B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				82FEEB9318B550BF00AA6C66 /* Main-iPad.storyboard */,
 				82C6A0A418A6F53400FEBE9B /* Main.storyboard */,
 				8274FC3318A7F14000FEBCE7 /* Images */,
 				82C6A0AA18A6F53400FEBE9B /* Images.xcassets */,
@@ -385,7 +357,6 @@
 				823C184518B3E57F00C9BD2F /* taptap@2x.png in Resources */,
 				823C184E18B3F1BB00C9BD2F /* medal_gold@2x.png in Resources */,
 				823C185018B3F1BB00C9BD2F /* medal_plate@2x.png in Resources */,
-				82FEEB9418B550BF00AA6C66 /* Main-iPad.storyboard in Resources */,
 				823C185218B3F1BB00C9BD2F /* medal_platinum@2x.png in Resources */,
 				823C184F18B3F1BB00C9BD2F /* medal_bronze@2x.png in Resources */,
 				82457DBF18B2C3490042CF82 /* pipe_top@2x.png in Resources */,
@@ -401,7 +372,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82C6A0BC18A6F53400FEBE9B /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +397,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82C6A0BE18A6F53400FEBE9B /* spritybirdTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,14 +425,6 @@
 				82C6A0A518A6F53400FEBE9B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		82C6A0BA18A6F53400FEBE9B /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				82C6A0BB18A6F53400FEBE9B /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
